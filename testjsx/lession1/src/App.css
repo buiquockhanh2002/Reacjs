@@ -1,0 +1,517 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.toolbar{
+  width: 40px;
+  height: 140px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 0 0 15px;
+}
+
+.toolbar-icon{
+  position: relative;
+  width: 53px;
+  margin:1px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-size: 20px;
+  color:#fff;
+}
+
+.ico-i{
+  border-radius: 15px 0 0 0;
+  background-color: #042032;
+}
+.ico-i2{
+  background-color:rgb(0, 132, 255)
+}
+
+.ico-i3{
+  border-radius:  0  0  0 15px;
+  background-color: rgb(19, 221, 106);
+}
+p{
+  font-size: 16px;
+  font-family: mulish,sans-serif;
+}
+
+#nav{
+  width: 100%;
+  height: 140px;
+  background-color: #001d33;
+
+}
+
+
+.nav_tow{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  color: #fff;
+
+}
+.nav_tow a{
+  list-style-type: none;
+  text-decoration:none;
+  font-size: 18px;
+  font-family: mulish,sans-serif;
+  color: #ffffff;
+
+}
+.nav_tow  li{
+  list-style-type: none;
+
+}
+#nav{
+display: flex;
+}
+
+.nav_one{
+  width: 20%;
+}
+
+.nav_tow:hover a{
+  color: #FDB913;
+}
+
+
+.none_li li:hover .subnav{
+  display: block;
+}
+.subnav{
+  display: none;
+  
+}
+
+ul.subnav {
+  position: absolute;
+  top: 148px;
+  left: 780px;
+  width: 209px;
+  height: 101px;
+  background-color: #001d33;
+}
+#silder{
+  width: 100%;
+height: auto;
+}
+.img{
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+.silder_btn{
+  width: 40%;
+  /* height: 342px; */
+  margin-top: 600px;
+  position: relative;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1.css_h1 {
+  color: #FDB913;
+  font-family: "Cormorant Infant", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1.css_h1btn {
+  color: #042032;
+  font-family: "Cormorant Infant", Sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 56px;
+}
+
+.silder_btn p{
+  font-size: 16px;
+  font-family: mulish,sans-serif;
+}
+
+.silder_btn1{
+width: 50px;
+height: 30px;
+border: 1px solid #000;
+}
+.silder_btn1{
+  width: 248px;
+  height: 51px;
+  background-color: blueviolet;
+  position: relative;
+  left: 700px;
+}
+
+.silder_btn1 button{
+  padding: 15px 70px;
+  font-size: 15px;
+}
+.silder_btn2    {
+ 
+  height: 600px;
+  /* background-color: green; */
+  display: flex;
+  margin-top:230px;
+  position: relative;
+  left: 300px;
+}
+
+.silder_text {
+  width: 684px;
+  height: 286px;
+  position: relative;
+  top: 90px;
+}
+
+.silder_img {
+  width: 455px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divs_img{
+  display: flex;
+}
+
+.div_img_text{
+  width: 35%;
+  position: relative;
+  left: 60px;
+  top: -25px;
+}
+
+.div_img_text1{
+  position: relative;
+  left: 75px;
+}
+
+.silder_btn3{
+
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-left: 250px;
+} 
+
+
+.silder_btn_css{
+  width: 379px;
+  height: 584px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+  
+ 
+#content{
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+
+}
+.content_text{
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.content_text h1{
+  color: #fdb913;
+  font-family: "Cormorant Infant", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.content_text h2{
+  font-family: "Cormorant Infant", Sans-serif;
+  font-size: 40px;
+line-height: 46px;
+  text-transform: uppercase;
+}
+
+.content_img{
+display: flex;
+align-items: baseline;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left:250px;
+}
+.content_img a{
+  font-family: Cormorant Infant;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+
+.img_css{
+  width: 414.35px;
+  position: relative;
+  height: 245.56px;
+  top: -20px;
+}
+.div_img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 340px;
+  width: 413px;
+}
+
+.content_img_text {
+  border: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px;
+
+}
+  .content_buttom{
+  display: flex;
+  justify-content: center;  
+  height: 70px;
+  margin:85px;
+  }
+
+  div#button_css {
+      display: flex;
+      width: 340px;
+      height: 80px;
+      border: 2px solid;
+      justify-content: center}
+
+      div#button_css > button{
+          border-style: none;
+           font-size: 17px;
+           background-color: #fff;
+      }
+
+  .content_btn1{
+    
+  height: 830px;
+  background-color: green;
+  }
+  .btn1_img{
+      width: 100%;
+      height: 830px;
+  }
+
+  .btn1_img_text{
+      width: 592px;
+      height: 830px;
+      /* background-color: aqua; */
+      position: relative;
+      top: -852px;
+      left: 600px;
+  }
+  .content_btn2{
+      width: 100%;
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .content_btn2_img {
+      display: flex;
+     
+  }
+  .img_btn2_css{
+      width:400px;
+      height:400px;
+  }
+  .div_btn2{
+      display: flex;
+      flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 10px;
+  }
+  .btn2_button {
+      width: 100%;
+      height: 80px;
+      margin: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: -87px;
+  }
+  .a_button{
+      display: flex;
+  width: 340px;
+  height: 80px;
+  border: 2px solid;
+  justify-content: center;
+  }
+  
+  .a_button >button{
+      border-style: none;
+      font-size: 17px;
+      background-color: #fff;
+  }
+
+  .img_btn2_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .img_btn2_red{
+      margin: 0 80px;
+  }
+
+  .img_btn2 {
+      display: flex;
+      justify-content: space-around;
+  }
+
+#footer{
+  width: 100%;
+  height: 400px;
+  background-color: #042032;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  top: 200px;
+}
+h5{
+  color: #FFFFFF;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer_end_icon{
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.footer_end_icon >i {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #FDB913;;
+  border: 2px solid #FDB913;;
+}
+
+
+
+.footer_end_img{
+  width:230px;
+  heigth:35px;
+}
+
+.col{
+  width: 280px;
+  height: 197px;
+  flex-direction: column;
+ 
+  display: flex;
+  line-height: 28px;
+}
+.col_css{
+  width: 280px;
+  height: 197px;
+  flex-direction: column;
+ 
+  display: flex;
+  line-height: 28px;
+}
+
+li{
+  list-style-type: none;
+
+}
+.css_img{
+  position:relative;
+  left: -35px;
+  
+  top:-15px;
+  /* border-bottom: 1px solid black;
+  padding: 10px;
+  padding-bottom: 10px; */
+}
+.underline{
+  border-bottom:1px solid #fff;
+  padding-bottom:10px;
+}
+
+
+
